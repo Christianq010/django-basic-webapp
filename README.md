@@ -1,3 +1,5 @@
+# Basic Django Web App
+
 ## Python References
 * Python for Windows 3.6.1 (https://www.python.org/downloads/windows/)
 
@@ -9,6 +11,6 @@
 * Run Python 3 from terminal `C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python`
 
 
-## Python 3.6 Location
+## Python 3.6 .exe Location
 * `C:\Users\Christiaan\AppData\Local\Programs\Python\Python36-32`
 
