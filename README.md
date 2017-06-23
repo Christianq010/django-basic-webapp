@@ -17,5 +17,12 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py r
 ## Python 3.6 .exe Location
 * `C:\Users\Christiaan\AppData\Local\Programs\Python\Python36-32`
 
+### Create App from Site 
+* Run 
+```python
+C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py startapp someName
+```
+
+
 ## Python References
 * Python for Windows 3.6.1 (https://www.python.org/downloads/windows/)
