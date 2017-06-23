@@ -18,10 +18,15 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py r
 * `C:\Users\Christiaan\AppData\Local\Programs\Python\Python36-32`
 
 ### Create App from Site 
-* Run 
+* Run the following to create an app 
 ```python
 C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py startapp someName
 ```
+* Add `someName` to `settings.py` in `myapp` directory.
+* Edit `urls.py` to include our webapp url.
+* Add to our `views.py` for `webapp`( add an http response with a simple hello world response).
+* Create `urls.py` relative to our `webapp`
+* Run our local server to and test the url with `http://localhost:8000/webapp/`
 
 
 ## Python References
