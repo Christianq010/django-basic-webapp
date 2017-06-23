@@ -30,7 +30,7 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py s
 
 ### Templating with Jinja2
 * Create an app (instructions above) and it to `settings.py`
-
+* Add `urls.py` and edit `views.py`to render our `html` pages with the jinja templates  (include,extends). 
 
 ## Python References
 * Python for Windows 3.6.1 (https://www.python.org/downloads/windows/)
