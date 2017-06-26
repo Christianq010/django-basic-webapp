@@ -30,7 +30,13 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py s
 
 ### Templating with Jinja2
 * Create an app (instructions above) and it to `settings.py`
-* Add `urls.py` and edit `views.py`to render our `html` pages with the jinja templates  (include,extends). 
+* Add `urls.py` and edit `views.py`to render our `html` pages with the jinja templates  (include,extends).
+
+### Add `static` assets
+* Create the folder `static` your `someName` directory (check `settings.py` in your `mainapp` folder for references to `/static/` folder.
+* Add some files and reference static files in `<>`
+
+
 
 ## Python References
 * Python for Windows 3.6.1 (https://www.python.org/downloads/windows/)
