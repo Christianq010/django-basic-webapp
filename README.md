@@ -34,7 +34,7 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py s
 
 ### Add `static` assets
 * Create the folder `static` your `someName` directory (check `settings.py` in your `mainapp` folder for references to `/static/` folder.
-* Add some files and reference static files in `<>`
+* Add some files and reference static files in the html via  `<href="{% static 'css/materialize.min.css' %}">`
 
 
 
