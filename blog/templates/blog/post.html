@@ -1,0 +1,22 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+
+    {% include "personal/includes/nav-bar.html" %}
+
+    <!-- Show individual Posts -->
+        <h3>
+            <a href="/blog/{{post.id}}">
+                {{ post.title }}
+            </a>
+        </h3>
+        <h6> on {{ post.date }}</h6>
+        <div class = "container">
+            <p>{{ post.body|safe|linebreaks}}</p>
+        </div>
+        <br><br>
+
+    {% include "personal/includes/footer.html" %}
+
+{% endblock %}
+

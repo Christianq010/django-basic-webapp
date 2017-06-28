@@ -58,5 +58,10 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py m
 * In the `blog/admin.py` file and the ability to create Posts.
 * Add posts via our admin page in the browser and visit the page to see if it displayed.
 
+#### Connect id_posts to blog urls
+* Create a url for individual blogs, by adding it into `urls.py` in blog.
+* Add template that renders post in templates.
+* In the template `post.html` the `safe|linebreaks` are filters in jinja to escape html etc.
+
 ## Python References
 * Python for Windows 3.6.1 (https://www.python.org/downloads/windows/)
