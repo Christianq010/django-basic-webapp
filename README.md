@@ -28,16 +28,21 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py s
 * Create `urls.py` relative to our `webapp`
 * Run our local server to and test the url with `http://localhost:8000/webapp/`
 
-### Templating with Jinja2
+#### Templating with Jinja2
 * Create an app (instructions above) and it to `settings.py`
 * Add `urls.py` and edit `views.py`to render our `html` pages with the jinja templates  (include,extends).
 
-### Add `static` assets
+#### Add `static` assets
 * Create the folder `static` your `someName` directory (check `settings.py` in your `mainapp` folder for references to `/static/` folder.
 * Add some files and reference static files in the html via  `<href="{% static 'css/materialize.min.css' %}">`
 
-### Create Addional Pages 
+#### Create Addional Pages 
 * Add to `view.py` on our personal page, create new `html` file add to `urls.py` to link to page on both the personal site and the main app.
+
+## Create Blog on site
+* Create an app and add it (install it) on the main `settings.py`.
+* Add app to main `urls.py`.
+
 
 ## Python References
 * Python for Windows 3.6.1 (https://www.python.org/downloads/windows/)
