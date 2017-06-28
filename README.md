@@ -15,7 +15,7 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py r
 * Run Python 3 from terminal `C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python`
 
 ## Python 3.6 .exe Location
-* `C:\Users\Christiaan\AppData\Local\Programs\Python\Python36-32`
+* `C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32`
 
 ### Create App from Site 
 * Run the following to create an app 
@@ -43,7 +43,13 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py s
 * Create an app and add it (install it) on the main `settings.py`.
 * Add app to main `urls.py`.
 * Add class `Post` in `models.py` to begin creating tables for our blog database.
-* Use django generic views to define our blog/`urls.py` file and create templates. 
+* Use django generic views to define our blog/`urls.py` file and create templates.
+* Use Migrations any time you want Django to recognize changes to the models and database schema. 
+```python
+C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py makemigrations
+```
+* Or make migrations on a single app by `python manage.py makemigrations blog`.
+* Them migrate with `python manage.py migrate`.
 
 
 ## Python References
