@@ -43,14 +43,20 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py s
 * Create an app and add it (install it) on the main `settings.py`.
 * Add app to main `urls.py`.
 * Add class `Post` in `models.py` to begin creating tables for our blog database.
-* Use django generic views to define our blog/`urls.py` file and create templates.
+* Use django generic views to define our blog/`urls.py` file and create templates (don't forget to create `blog` directory in our `blog/templates` directory).
 * Use Migrations any time you want Django to recognize changes to the models and database schema. 
 ```python
 C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py makemigrations
 ```
 * Or make migrations on a single app by `python manage.py makemigrations blog`.
 * Them migrate with `python manage.py migrate`.
+* Runserver and go to our `localhost:8000/blog`
 
+### Admin Control Panel
+* By default, the admin app is installed, check at `localhost:8000/admin`
+* To make an admin user `python manage.py createsuperuser`and fill in details.
+* In the `blog/admin.py` file and the ability to create Posts.
+* Add posts via our admin page in the browser and visit the page to see if it displayed.
 
 ## Python References
 * Python for Windows 3.6.1 (https://www.python.org/downloads/windows/)
