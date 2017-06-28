@@ -17,6 +17,8 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py r
 ## Python 3.6 .exe Location
 * `C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32`
 
+====================================
+
 ### Create App from Site 
 * Run the following to create an app 
 ```python
@@ -38,6 +40,10 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py s
 
 #### Create Addional Pages 
 * Add to `view.py` on our personal page, create new `html` file add to `urls.py` to link to page on both the personal site and the main app.
+
+
+========================================
+
 
 ## Create Blog on site
 * Create an app and add it (install it) on the main `settings.py`.
@@ -62,6 +68,8 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py m
 * Create a url for individual blogs, by adding it into `urls.py` in blog.
 * Add template that renders post in templates.
 * In the template `post.html` the `safe|linebreaks` are filters in jinja to escape html etc.
+
+==================================
 
 ## Python References
 * Python for Windows 3.6.1 (https://www.python.org/downloads/windows/)
