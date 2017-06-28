@@ -36,7 +36,8 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py s
 * Create the folder `static` your `someName` directory (check `settings.py` in your `mainapp` folder for references to `/static/` folder.
 * Add some files and reference static files in the html via  `<href="{% static 'css/materialize.min.css' %}">`
 
-
+### Create Addional Pages 
+* Add to `view.py` on our personal page, create new `html` file add to `urls.py` to link to page on both the personal site and the main app.
 
 ## Python References
 * Python for Windows 3.6.1 (https://www.python.org/downloads/windows/)

@@ -1,0 +1,15 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+
+    {% include "personal/includes/nav-bar.html" %}
+
+        {% for c in contact %}
+            <p>{{c}}</p>
+        {% endfor %}
+
+
+    {% include "personal/includes/footer.html" %}
+
+{% endblock %}
+
