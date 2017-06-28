@@ -42,6 +42,8 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py s
 ## Create Blog on site
 * Create an app and add it (install it) on the main `settings.py`.
 * Add app to main `urls.py`.
+* Add class `Post` in `models.py` to begin creating tables for our blog database.
+
 
 
 ## Python References
