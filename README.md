@@ -71,5 +71,11 @@ C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python manage.py m
 
 ==================================
 
+### Deploy to Webserver
+* Follow instructions here to launch app via Digital Ocean - https://pythonprogramming.net/django-web-server-publish-tutorial/
+
+
+==================================
+
 ## Python References
 * Python for Windows 3.6.1 (https://www.python.org/downloads/windows/)
